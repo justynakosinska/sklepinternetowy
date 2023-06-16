@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Online Store Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an online store project created using React technology. 
 
-## Available Scripts
+The project consists of a user interface for an online store, which includes pages such as the home page, login page, registration page, password reset page, cart page, and contact page. The project utilizes Firebase for user authentication and data storage. Rest of folders will be develop in future. 
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
+ * src- The main folder containing the application source code.
+    * app-pages: Folders for individual application pages.
+        * adminPage: Components and files for the admin page (to be completed).
+        * authorisation: Components and files for the login, registration, and password reset pages.
+        * cartPage: Components and files for the cart page (to be completed).
+        * contactUsPage: Components and files for the contact page (to be completed).
+        * homePage: Components and files for the home page (to be completed).
+        * myOrders: Components and files for the user orders page (to be completed).
+    * components: React components used across different pages of the application.
+        * slider: Files related to the slider on the home page.
+        * footer: component that appears on all pages
+        * header: component that appears on all pages
+    * firebaseIntegration: Firebase integration, including configuration and helper functions.
+    * resources : folder include images used in project without images used in slider
+    * variables: folder include file scss with color variables used in project
+     
 
-### `npm test`
+## Requirements
+To run this project locally, you will need the following dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Node.js
+* npm (Node Package Manager)
+## Installation
 
-### `npm run build`
+* Clone the repository: git clone https://github.com/justynakosinska/sklepinternetowy.git
+* Navigate to the project folder: cd online-store
+* Install the required dependencies: npm install
+    
+## Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Start the server
+```bash
+  npm run start
+```

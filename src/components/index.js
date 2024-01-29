@@ -1,2 +1,2 @@
-export {default as Headercom} from "./header/Headercom";
-export {default as Footercom} from "./footer/Footercom";
+export {default as Header} from './header/Header';
+export {default as Footer} from './footer/Footer';

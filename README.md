@@ -1,8 +1,8 @@
-# Online Store Project
+# Online Store Project - Engineering Project
 
 This is an online store project created using React technology. 
 
-The project consists of a user interface for an online store, which includes pages such as the home page, login page, registration page, password reset page, cart page, and contact page. The project utilizes Firebase for user authentication and data storage. Rest of folders will be develop in future. 
+The project consists of a user interface for an online store, which includes pages such as the home page, login page, registration page, password reset page, cart page, and contact page. The project utilizes Firebase for user authentication and data storage. 
 
 
 
@@ -10,12 +10,12 @@ The project consists of a user interface for an online store, which includes pag
 ## Folder Structure
  * src- The main folder containing the application source code.
     * app-pages: Folders for individual application pages.
-        * adminPage: Components and files for the admin page (to be completed).
+        * adminPage: Components and files for the admin page.
         * authorisation: Components and files for the login, registration, and password reset pages.
-        * cartPage: Components and files for the cart page (to be completed).
-        * contactUsPage: Components and files for the contact page (to be completed).
-        * homePage: Components and files for the home page (to be completed).
-        * myOrders: Components and files for the user orders page (to be completed).
+        * cartPage: Components and files for the cart page.
+        * contactUsPage: Components and files for the contact page.
+        * homePage: Components and files for the home page.
+        * myOrders: Components and files for the user orders page.
     * components: React components used across different pages of the application.
         * slider: Files related to the slider on the home page.
         * footer: component that appears on all pages
